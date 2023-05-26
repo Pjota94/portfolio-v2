@@ -4,6 +4,18 @@
 
 @layer base {
   body {
-    @apply overflow-x-hidden bg-[#050505] text-[#E7E1D7] transition duration-500 ease-in-out dark:bg-[#E7E1D7] dark:text-[#050505];
+    @apply overflow-x-hidden bg-[#050505] text-[#F2F2F2] transition duration-500 ease-in-out dark:bg-[white] dark:text-[#050505];
+  }
+}
+
+@layer utilities {
+  ol a {
+    @apply relative tracking-[1px];
+  }
+  ol a::after {
+    @apply content-[''] bg-[hsla(0,0%,99%,.4)] h-[1px] w-[0%] left-0 -bottom-[4px] rounded-xl absolute duration-300 dark:bg-[rgba(5,7,13,.4)];
+  }
+  ol a:hover::after {
+    @apply w-[100%];
   }
 }

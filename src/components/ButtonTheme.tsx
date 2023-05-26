@@ -26,13 +26,13 @@ const ButtonTheme = () => {
           className="group cursor-pointer flex mt-10"
         >
           <p
-            className={`hidden group-hover:block absolute right-[4.75rem] animate__animated animate__bounceIn font-bitter`}
+            className={`hidden group-hover:block absolute right-[4.75rem] animate__animated animate__bounceIn font-bitter min-[1462.22px]:right-[5.85rem]`}
           >
-            Inverter Tema
+            Alterar Tema
           </p>
 
           <Image
-            className="fixed right-11"
+            className="fixed right-[2.20rem] min-[1462.22px]:right-[2.70rem]"
             width={24}
             height={24}
             src={dark}
@@ -46,12 +46,12 @@ const ButtonTheme = () => {
           onClick={() => setTheme("dark")}
           className="group cursor-pointer flex mt-10"
         >
-          <p className="hidden group-hover:block absolute right-[4.75rem] animate__animated animate__bounceIn font-bitter">
-            Inverter Tema
+          <p className="hidden group-hover:block absolute right-[4.75rem] animate__animated animate__bounceIn font-bitter min-[1462.22px]:right-[5.85rem]">
+            Alterar Tema
           </p>
 
           <Image
-            className="fixed right-11"
+            className="fixed right-[2.20rem] min-[1462.22px]:right-[2.70rem]"
             width={24}
             height={24}
             src={light}

@@ -7,8 +7,13 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      murecho: ["var(--murecho-font)"],
+      roboto: ["var(--roboto-font)"],
       bitter: ["var(--bitter-font)"],
+      source: ["var(--source-font)"],
+    },
+    colors: {
+      gray: "#E7E1D7",
+      black: "#050505",
     },
   },
 
