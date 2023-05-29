@@ -1,4 +1,3 @@
-import { stacks } from "@/database/stacks";
 import SectionName from "./SectionName";
 import Stack from "./Stack";
 import typescript from "../assets/Techs/typescript.png";

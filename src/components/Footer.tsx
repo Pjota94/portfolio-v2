@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="h-full flex flex-col items-center justify-center gap-6 mb-8">
         <div className="h-[0.3px] w-[90%] bg-[hsla(0,0%,99%,.3)] dark:bg-[rgba(5,7,13,.3)]"></div>
         <div className="w-[90%] flex justify-between items-center">
-          <span className="text-[20px] font-extralight">
+          <span className="text-[20px] font-roboto font-extralight max-[440px]:text-[15px]">
             © 2023 Paulo Júnior
           </span>
           <div className="flex gap-[36px]">
