@@ -8,6 +8,7 @@ import mks from "../assets/Projects/mks.png";
 import marvel from "../assets/Projects/marvel.png";
 import just from "../assets/Projects/justTalk.png";
 import { useState } from "react";
+import Link from "next/link";
 
 const Projects = () => {
   const [imagem, setImagem] = useState(pokedex);
@@ -19,20 +20,37 @@ const Projects = () => {
         <section className="flex w-[90%] justify-between items-center">
           {/* Div 1 projetos*/}
           <div className="flex flex-col">
-            {/* componentizar essa parte */}
-            <div className="flex justify-between text-[hsla(0,0%,99%,.6)] dark:text-[rgba(5,7,13,.6)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[16px] group cursor-pointer">
-              <span className="font-roboto text-xs font-light min-[499px]:min-[499px]:group-hover:pl-[28px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
-                01
-              </span>
-              <h3 className="font-roboto text-[25px] font-light w-[220px] ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
-                Pokédex
-              </h3>
-              <ArrowUpRight className="group-hover:mr-[14px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]" />
-            </div>
-            {/* componentizar essa parte */}
-            <div
+            {imagem === pokedex ? (
+              <Link
+                href={"/pokedex"}
+                className="flex justify-between text-[#F2F2F2] dark:text-[#050505] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[18px] group cursor-pointer"
+              >
+                <span className="font-roboto text-xs font-light min-[499px]:min-[499px]:group-hover:pl-[28px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
+                  01
+                </span>
+                <h3 className="font-roboto text-[25px] font-normal w-[220px] ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
+                  Pokédex
+                </h3>
+                <ArrowUpRight className="group-hover:mr-[14px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]" />
+              </Link>
+            ) : (
+              <Link
+                href={"/pokedex"}
+                className="flex justify-between text-[hsla(0,0%,99%,.4)] dark:text-[rgba(5,7,13,.4)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[18px] group cursor-pointer"
+              >
+                <span className="font-roboto text-xs font-light min-[499px]:min-[499px]:group-hover:pl-[28px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
+                  01
+                </span>
+                <h3 className="font-roboto text-[25px] font-normal w-[220px] ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
+                  Pokédex
+                </h3>
+                <ArrowUpRight className="group-hover:mr-[14px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]" />
+              </Link>
+            )}
+            <Link
+              href={"/mks"}
               onMouseOver={() => setImagem(mks)}
-              className="flex justify-between text-[hsla(0,0%,99%,.6)] dark:text-[rgba(5,7,13,.6)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[16px] group cursor-pointer"
+              className="flex justify-between text-[hsla(0,0%,99%,.4)] dark:text-[rgba(5,7,13,.4)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[18px] group cursor-pointer"
               onMouseOut={() => {
                 setImagem(pokedex);
               }}
@@ -40,14 +58,15 @@ const Projects = () => {
               <span className="font-roboto text-xs font-light min-[499px]:group-hover:pl-[28px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
                 02
               </span>
-              <h3 className="font-roboto text-[25px] w-[220px] font-light ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
+              <h3 className="font-roboto text-[25px] w-[220px] font-normal ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
                 E-Commerce
               </h3>
               <ArrowUpRight className="group-hover:mr-[14px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]" />
-            </div>
-            <div
+            </Link>
+            <Link
+              href={"/marvel-comic"}
               onMouseOver={() => setImagem(marvel)}
-              className="flex justify-between text-[hsla(0,0%,99%,.6)] dark:text-[rgba(5,7,13,.6)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[16px] group cursor-pointer"
+              className="flex justify-between text-[hsla(0,0%,99%,.4)] dark:text-[rgba(5,7,13,.4)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[18px] group cursor-pointer"
               onMouseOut={() => {
                 setImagem(pokedex);
               }}
@@ -55,14 +74,15 @@ const Projects = () => {
               <span className="font-roboto text-xs font-light min-[499px]:group-hover:pl-[28px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
                 03
               </span>
-              <h3 className="font-roboto text-[25px] w-[220px] font-light ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
+              <h3 className="font-roboto text-[25px] w-[220px] font-normal ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
                 Marvel Comics
               </h3>
               <ArrowUpRight className="group-hover:mr-[14px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]" />
-            </div>
-            <div
+            </Link>
+            <Link
+              href={"just-talk"}
               onMouseOver={() => setImagem(just)}
-              className="flex justify-between text-[hsla(0,0%,99%,.6)] dark:text-[rgba(5,7,13,.6)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[16px] group cursor-pointer"
+              className="flex justify-between text-[hsla(0,0%,99%,.4)] dark:text-[rgba(5,7,13,.4)] items-center w-[450px] max-[499px]:w-[333px] border-b border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] p-[18px] group cursor-pointer"
               onMouseOut={() => {
                 setImagem(pokedex);
               }}
@@ -70,16 +90,16 @@ const Projects = () => {
               <span className="font-roboto text-xs font-light min-[499px]:group-hover:pl-[28px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
                 04
               </span>
-              <h3 className="font-roboto text-[25px] w-[220px] font-light ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
+              <h3 className="font-roboto text-[25px] w-[220px] font-normal ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
                 JustTalk
               </h3>
               <ArrowUpRight className="group-hover:mr-[14px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]" />
-            </div>
+            </Link>
           </div>
           {/* Div 1 projetos*/}
-          <div className="w-[567px] h-[386px] max-[1157px]:w-[435px] max-[1157px]:h-[321px] max-[1012px]:w-[357px] max-[1012px]:h-[254px] max-[924px]:hidden bg-[#0f0f0f] rounded-3xl border border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.2)] flex justify-center items-center p-4">
+          <div className="w-[567px] h-[386px] max-[1157px]:w-[435px] max-[1157px]:h-[321px] max-[1012px]:w-[357px] max-[1012px]:h-[254px] max-[924px]:hidden bg-[#0f0f0f] dark:bg-[#5b5a5a] rounded-2xl border border-[hsla(0,0%,99%,.1)] dark:border-[rgba(5,7,13,.2)] flex justify-center items-center p-4">
             <Image
-              className="w-full h-full rounded-lg opacity-70"
+              className="w-full h-full rounded-md opacity-70 dark:opacity-90"
               src={imagem}
               alt="pokedex"
             />

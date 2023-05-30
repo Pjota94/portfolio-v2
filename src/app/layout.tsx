@@ -1,18 +1,12 @@
 import "./globals.css";
 import Provider from "@/components/Provider";
 import "animate.css";
-import { Bitter, Roboto_Flex, Roboto_Mono, Montserrat } from "next/font/google";
+import { Roboto_Mono, Montserrat } from "next/font/google";
 
 export const metadata = {
   title: "Paulo Júnior | Full-Stack Developer",
   description: "Portfolio Paulo Júnior Desenvolvedor Full-Stack",
 };
-
-const robotoMono = Roboto_Mono({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
-  variable: "--robotoMono-font",
-});
 
 const roboto = Montserrat({
   subsets: ["latin"],

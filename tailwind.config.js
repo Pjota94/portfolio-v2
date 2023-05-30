@@ -9,7 +9,6 @@ module.exports = {
     fontFamily: {
       roboto: ["var(--roboto-font)"],
       bitter: ["var(--bitter-font)"],
-      // robotoMono: ["var(--robotoMono-font"],
     },
     colors: {
       gray: "#E7E1D7",

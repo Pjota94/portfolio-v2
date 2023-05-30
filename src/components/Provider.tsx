@@ -1,11 +1,12 @@
 "use client";
 import { ThemeProvider } from "next-themes";
 import "animate.css";
+import { AnimatePresence } from "framer-motion";
 
 const Provider = ({ children }: { children: React.ReactNode }) => {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
-      {children}
+      <AnimatePresence>{children}</AnimatePresence>
     </ThemeProvider>
   );
 };
