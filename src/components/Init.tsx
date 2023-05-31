@@ -1,14 +1,15 @@
 const Init = () => {
   return (
-    <section className="mt-9">
+    <section className="mt-9 max-[500px]:mt-16">
       <div className="flex flex-col font-roboto font-extralight text-[25px] leading-9 ml-32 max-[546px]:ml-12">
         <h2 className="font-roboto font-light">Paulo Júnior</h2>
         <h2 className="font-roboto font-light">Full-Stack Developer</h2>
       </div>
       <div className="w-full flex justify-center mt-36 max-[546px]:mt-32  min-[1462.22px]:mt-44 min-[1645px]:mt-52">
-        <h1 className="font-bitter font-semibold text-3xl w-[640px] max-[546px]:w-[312px] max-[546px]:text-[18px]">
-          Um desenvolvedor full-stack que ama codar e sonha em viver do
-          desenvolvimento<span className="animate-ping">_</span>
+        <h1 className="font-bitter font-semibold text-2xl w-[640px] max-[740px]:w-[312px] max-[740px]:text-[18px]">
+          Um apaixonado desenvolvedor full-stack que adora programar e sonha em
+          viver do seu talento na área de desenvolvimento
+          <span className="animate-ping">_</span>
         </h1>
       </div>
       <section className="ml-32 mt-32 font-roboto font-light text-xl max-[546px]:ml-12 min-[1462.22px]:mt-44 min-[1645px]:mt-52">

@@ -59,7 +59,7 @@ const Projects = () => {
                 02
               </span>
               <h3 className="font-roboto text-[25px] w-[220px] font-normal ml-[-76px] max-[499px]:ml-[-15px] min-[499px]:group-hover:ml-[-60px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]">
-                E-Commerce
+                MKS Sistemas
               </h3>
               <ArrowUpRight className="group-hover:mr-[14px] duration-300 group-hover:text-[#F2F2F2] dark:group-hover:text-[#050505]" />
             </Link>

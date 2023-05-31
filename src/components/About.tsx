@@ -7,17 +7,17 @@ const About = () => {
     <section className="mt-32">
       <SectionName name="SOBRE" number="002" />
       <div className="w-full flex flex-col items-center gap-4">
-        <p className="w-[1103px] font-roboto font-extralight text-[1.5rem] indent-10 max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
-          Sou o Paulo, um <strong>Desenvolvedor Full-Stack</strong> com
-          experiências em <strong>TypeScript</strong>, <strong>React.js</strong>
-          ,<strong> Next.js</strong> e <strong>Node.js</strong>, possuo
+        <p className="w-[1103px] text-justify font-roboto font-extralight text-[1.5rem] indent-10 max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
+          Olá, eu sou o Paulo, um <strong>Desenvolvedor Full-Stack</strong> com
+          experiência em <strong>TypeScript</strong>, <strong>React.js</strong>,{" "}
+          <strong>Next.js</strong> e <strong>Node.js</strong>. Possuo
           habilidades tanto no desenvolvimento de interfaces de usuário modernas
-          e responsivas quanto na construção de backends.
+          e responsivas, quanto na construção de backends.
         </p>
-        <p className="w-[1103px] font-roboto font-extralight text-[1.5rem] max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
-          Quando não estou programando, gosto de relaxar jogando Xbox e assistir
-          series ou filmes. Também gosto muito de esportes, adoro cozinhar e
-          fazer churrasco.
+        <p className="w-[1103px] text-justify font-roboto font-extralight text-[1.5rem] max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
+          Além do meu trabalho com programação, encontro prazer em relaxar
+          jogando Xbox e assistindo séries ou filmes. Sou também um entusiasta
+          de esportes, adoro cozinhar e fazer churrasco.
         </p>
         <span className="font-roboto font-extralight text-[25px] text-start w-[1107px] flex items-center max-[1160px]:w-[90%] max-[1160px]:text-[14px]">
           Confira minha experiência de trabalho abaixo{" "}
