@@ -3,10 +3,10 @@
 import { ArrowUpRight } from "lucide-react";
 import SectionName from "./SectionName";
 import Image from "next/image";
-import pokedex from "../assets/Projects/pokedex.png";
-import mks from "../assets/Projects/mks.png";
-import marvel from "../assets/Projects/marvel.png";
-import just from "../assets/Projects/justTalk.png";
+import pokedex from "../assets/Note/pokedex.png";
+import mks from "../assets/Note/mks.png";
+import marvel from "../assets/Note/marvel.png";
+import just from "../assets/Note/justTalk.png";
 import { useState } from "react";
 import Link from "next/link";
 
@@ -17,7 +17,7 @@ const Projects = () => {
     <section className="mt-32">
       <SectionName name="PROJETOS" number="001" />
       <div className="flex justify-center">
-        <section className="flex w-[90%] justify-between items-center">
+        <section className="flex w-[90%] justify-around items-center">
           {/* Div 1 projetos*/}
           <div className="flex flex-col">
             {imagem === pokedex ? (
@@ -97,12 +97,8 @@ const Projects = () => {
             </Link>
           </div>
           {/* Div 1 projetos*/}
-          <div className="w-[567px] h-[386px] max-[1157px]:w-[435px] max-[1157px]:h-[321px] max-[1012px]:w-[357px] max-[1012px]:h-[254px] max-[924px]:hidden bg-[#0f0f0f] dark:bg-[#5b5a5a] rounded-2xl border border-[hsla(0,0%,99%,.1)] dark:border-[rgba(5,7,13,.2)] flex justify-center items-center p-4">
-            <Image
-              className="w-full h-full rounded-md opacity-70 dark:opacity-90"
-              src={imagem}
-              alt="pokedex"
-            />
+          <div className="w-[567px] h-[386px] max-[1157px]:w-[435px] max-[1157px]:h-[321px] max-[1012px]:w-[357px] max-[1012px]:h-[254px] max-[924px]:hidden bg-gradient-to-t from-[#050505] to-[hsla(0,0%,99%,.1)] dark:bg-gradient-to-t dark:from-[#F2f2f2] dark:to-[rgba(5,7,13,.4)] rounded-2xl border border-[hsla(0,0%,99%,.1)] dark:border-[rgba(5,7,13,.2)] flex justify-center items-center p-4">
+            <Image className="w-full h-full " src={imagem} alt="pokedex" />
           </div>
         </section>
       </div>

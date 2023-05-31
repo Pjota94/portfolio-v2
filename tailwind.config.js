@@ -15,6 +15,10 @@ module.exports = {
       black: "#050505",
     },
   },
+  plugins: [
+    require("@tailwindcss/aspect-ratio"),
+    // ...
+  ],
 
   darkMode: "class",
   plugins: [],

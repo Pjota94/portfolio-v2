@@ -13,7 +13,7 @@
     @apply relative tracking-[1px];
   }
   ol a::after {
-    @apply content-[''] bg-[hsla(0,0%,99%,.4)] h-[1px] w-[0%] left-0 -bottom-[4px] rounded-xl absolute duration-300 dark:bg-[rgba(5,7,13,.4)];
+    @apply content-[''] bg-[hsla(0,0%,99%,.4)] h-[2px] w-[0%] left-0 -bottom-[4px] rounded-xl absolute duration-300 dark:bg-[rgba(5,7,13,.4)];
   }
   ol a:hover::after {
     @apply w-[100%];

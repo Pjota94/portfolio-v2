@@ -7,19 +7,22 @@ const About = () => {
     <section className="mt-32">
       <SectionName name="SOBRE" number="002" />
       <div className="w-full flex flex-col items-center gap-4">
-        <p className="w-[1103px] text-justify font-roboto font-extralight text-[1.5rem] indent-10 max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
-          Olá, eu sou o Paulo, um <strong>Desenvolvedor Full-Stack</strong> com
-          experiência em <strong>TypeScript</strong>, <strong>React.js</strong>,{" "}
-          <strong>Next.js</strong> e <strong>Node.js</strong>. Possuo
-          habilidades tanto no desenvolvimento de interfaces de usuário modernas
-          e responsivas, quanto na construção de backends.
+        <p className="w-[1103px] text-justify font-roboto font-light dark:font-light text-[1.5rem] indent-10 max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
+          Olá, eu sou o Paulo, um{" "}
+          <strong className="font-medium">Desenvolvedor Full-Stack</strong> com
+          experiência em <strong className="font-medium">TypeScript</strong>,{" "}
+          <strong className="font-medium">React.js</strong>,{" "}
+          <strong className="font-medium">Next.js</strong> e{" "}
+          <strong className="font-medium">Node.js</strong>. Possuo habilidades
+          tanto no desenvolvimento de interfaces de usuário modernas e
+          responsivas, quanto na construção de backends.
         </p>
-        <p className="w-[1103px] text-justify font-roboto font-extralight text-[1.5rem] max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
+        <p className="w-[1103px] text-justify font-roboto font-light dark:font-light text-[1.5rem] max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
           Além do meu trabalho com programação, encontro prazer em relaxar
           jogando Xbox e assistindo séries ou filmes. Sou também um entusiasta
           de esportes, adoro cozinhar e fazer churrasco.
         </p>
-        <span className="font-roboto font-extralight text-[25px] text-start w-[1107px] flex items-center max-[1160px]:w-[90%] max-[1160px]:text-[14px]">
+        <span className="font-roboto font-light dark:font-light text-[25px] text-start w-[1107px] flex items-center max-[1160px]:w-[90%] max-[1160px]:text-[14px]">
           Confira minha experiência de trabalho abaixo{" "}
           <ArrowDown className="ml-3 max-[1160px]:w-[14px]" />
         </span>
