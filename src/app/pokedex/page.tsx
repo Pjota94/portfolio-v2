@@ -54,8 +54,8 @@ export default function pokedex() {
       <div className="w-[90%] flex mt-[19px] justify-between mb-[50px] max-[1000px]:flex-col">
         {/* Descrição */}
         <div className="w-[55%] max-[1000px]:w-[100%]">
-          <h3 className="font-bitter text-sm">DESCRIÇÃO</h3>
-          <p className="mt-3 font-roboto text-justify font-light  max-[1000px]:text-[14px]">
+          <h3 className="font-bitter font-medium text-sm">DESCRIÇÃO</h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal  max-[1000px]:text-[14px]">
             Este é o meu primeiro projeto desenvolvido com Next, uma Pokédex que
             apresenta uma página exibindo os 151 Pokémon de Kanto. Ao clicar em
             um Pokémon, o usuário será redirecionado para uma nova página
@@ -66,8 +66,10 @@ export default function pokedex() {
         </div>
         {/* Techs */}
         <div>
-          <h3 className="font-bitter text-sm max-[1000px]:mt-2">TECNOLOGIAS</h3>
-          <p className="mt-3 font-roboto text-justify font-light max-[1000px]:text-[14px] ">
+          <h3 className="font-bitter font-medium text-sm max-[1000px]:mt-2">
+            TECNOLOGIAS
+          </h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal  max-[1000px]:text-[14px] ">
             Next.js 13.4, TypeScript, Tailwind e Frame-Motion.
           </p>
         </div>

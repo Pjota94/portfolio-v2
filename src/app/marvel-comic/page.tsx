@@ -54,8 +54,8 @@ export default function marvel() {
       <div className="w-[90%] flex mt-[19px] justify-between mb-[50px] max-[1000px]:flex-col">
         {/* Descrição */}
         <div className="w-[55%] max-[1000px]:w-[100%]">
-          <h3 className="font-bitter text-sm">DESCRIÇÃO</h3>
-          <p className="mt-3 font-roboto text-justify font-light max-[1000px]:text-[14px]">
+          <h3 className="font-bitter text-sm font-medium">DESCRIÇÃO</h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal max-[1000px]:text-[14px]">
             Este projeto consiste em uma lista de todos os personagens e
             quadrinhos da Marvel. Foi feito uso da API oficial da Marvel para
             consumir os dados e o layout foi construído utilizando o Figma.
@@ -63,8 +63,10 @@ export default function marvel() {
         </div>
         {/* Techs */}
         <div>
-          <h3 className="font-bitter text-sm max-[1000px]:mt-2">TECNOLOGIAS</h3>
-          <p className="mt-3 font-roboto text-justify font-light max-[1000px]:text-[14px]">
+          <h3 className="font-bitter text-sm font-medium max-[1000px]:mt-2">
+            TECNOLOGIAS
+          </h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal max-[1000px]:text-[14px]">
             React.js, TypeScript, Styled-Components e Swipes.
           </p>
         </div>

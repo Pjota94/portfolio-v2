@@ -55,8 +55,8 @@ export default function justTalk() {
       <div className="w-[90%] flex mt-[19px] justify-between mb-[50px] max-[1100px]:flex-col">
         {/* Descrição */}
         <div className="w-[55%] max-[1100px]:w-[100%]">
-          <h3 className="font-bitter text-sm">DESCRIÇÃO</h3>
-          <p className="mt-3 font-roboto text-justify font-light max-[1100px]:text-[14px]">
+          <h3 className="font-bitter text-sm font-medium">DESCRIÇÃO</h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal max-[1100px]:text-[14px]">
             Neste projeto, fui desafiado a criar um layout e consumir dados de
             uma API de posts. O objetivo era listar os posts e exibir os
             comentários associados a cada post.
@@ -64,8 +64,10 @@ export default function justTalk() {
         </div>
         {/* Techs */}
         <div>
-          <h3 className="font-bitter text-sm max-[1100px]:mt-2">TECNOLOGIAS</h3>
-          <p className="mt-3 font-roboto text-justify font-light max-[1100px]:text-[14px]">
+          <h3 className="font-bitter text-sm font-medium max-[1100px]:mt-2">
+            TECNOLOGIAS
+          </h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal max-[1100px]:text-[14px]">
             React.js, TypeScript, Styled-Components, Vite e Frame-Motion.
           </p>
         </div>

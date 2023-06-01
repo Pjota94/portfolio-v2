@@ -18,9 +18,10 @@ const About = () => {
           responsivas, quanto na construção de backends.
         </p>
         <p className="w-[1103px] text-justify font-roboto font-light dark:font-light text-[1.5rem] max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
-          Além do meu trabalho com programação, encontro prazer em relaxar
-          jogando Xbox e assistindo séries ou filmes. Sou também um entusiasta
-          de esportes, adoro cozinhar e fazer churrasco.
+          Além do mundo da programação, gosto de aproveitar meu tempo livre
+          jogando Xbox e assistindo a séries ou filmes. Tenho um interesse
+          especial por esportes e sou um entusiasta da culinária, adorando
+          cozinhar e fazer churrasco.
         </p>
         <span className="font-roboto font-light dark:font-light text-[25px] text-start w-[1107px] flex items-center max-[1160px]:w-[90%] max-[1160px]:text-[14px]">
           Confira minha experiência de trabalho abaixo{" "}

@@ -54,8 +54,8 @@ export default function mks() {
       <div className="w-[90%] flex mt-[19px] justify-between mb-[50px] max-[1000px]:flex-col">
         {/* Descrição */}
         <div className="w-[55%] max-[1000px]:w-[100%]">
-          <h3 className="font-bitter text-sm">DESCRIÇÃO</h3>
-          <p className="mt-3 font-roboto text-justify font-light max-[1000px]:text-[14px]">
+          <h3 className="font-bitter text-sm font-medium">DESCRIÇÃO</h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal max-[1000px]:text-[14px]">
             Este desafio técnico envolveu a criação de um E-commerce seguindo o
             design proposto no Figma, com o Redux Toolkit sendo utilizado como
             gerenciador de estado global.
@@ -63,8 +63,10 @@ export default function mks() {
         </div>
         {/* Techs */}
         <div>
-          <h3 className="font-bitter text-sm max-[1000px]:mt-2">TECNOLOGIAS</h3>
-          <p className="mt-3 font-roboto text-justify font-light max-[1000px]:text-[14px]">
+          <h3 className="font-bitter text-sm font-medium max-[1000px]:mt-2">
+            TECNOLOGIAS
+          </h3>
+          <p className="mt-3 font-roboto text-justify font-light dark:font-normal max-[1000px]:text-[14px]">
             React.js, TypeScript, Styled-Components e Redux.
           </p>
         </div>

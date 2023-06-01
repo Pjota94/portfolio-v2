@@ -18,8 +18,10 @@ const Init = () => {
       </div>
       <div className="w-full flex justify-center mt-36 max-[546px]:mt-32  min-[1462.22px]:mt-44 min-[1645px]:mt-52">
         <h1 className="font-bitter font-semibold text-2xl w-[640px] max-[740px]:w-[312px] max-[740px]:text-[18px]">
-          Um apaixonado desenvolvedor full-stack que adora programar e sonha em
-          viver do seu talento na área de desenvolvimento
+          {/* Um apaixonado desenvolvedor full-stack que adora programar e sonha em
+          viver do seu talento na área de desenvolvimento */}
+          Sou um desenvolvedor full-stack determinado a transformar minha paixão
+          por codificar em uma carreira de sucesso.
           <span className="animate-ping">_</span>
         </h1>
       </div>
