@@ -97,7 +97,7 @@ const Projects = () => {
             </Link>
           </div>
           {/* Div 1 projetos*/}
-          <div className="w-[567px] h-[386px] max-[1157px]:w-[435px] max-[1157px]:h-[321px] max-[1012px]:w-[357px] max-[1012px]:h-[254px] max-[924px]:hidden bg-gradient-to-t from-[#050505] to-[hsla(0,0%,99%,.1)] dark:bg-gradient-to-t dark:from-[#F2f2f2] dark:to-[rgba(5,7,13,.4)] rounded-2xl border border-[hsla(0,0%,99%,.1)] dark:border-[rgba(5,7,13,.2)] flex justify-center items-center p-4">
+          <div className="w-[50%]  max-[924px]:hidden bg-gradient-to-t from-[#111213] to-[#131515] dark:bg-gradient-to-t dark:from-[#F2f2f2] dark:to-[#9ab8d212] rounded-2xl border border-[hsla(0,0%,99%,.1)] dark:border-[rgba(5,7,13,.2)] flex justify-center items-center p-4">
             <Image className="w-full h-full " src={imagem} alt="pokedex" />
           </div>
         </section>

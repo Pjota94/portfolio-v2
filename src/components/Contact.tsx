@@ -13,7 +13,7 @@ const Contact = () => {
             <a
               href="mailto:juniorgurinhem9@gmail.com"
               target={"_blank"}
-              className="mt-[24px] text-center font-medium font-bitter bg-[#E7E1D7] py-[5px] text-[#050505] text-[24px] rounded-[28px] hover:bg-[#e7e1d7c0] duration-300  dark:bg-[#050505] dark:text-[#E7E1D7] dark:hover:bg-[#050505dc] max-[796px]:w-[233px] max-[796px]:mt-[6px] max-[796px]:text-[21px]"
+              className="mt-[24px] text-center font-medium font-bitter bg-[#E7E1D7] py-[8px] text-[#050505] text-[24px] rounded-[28px] hover:bg-[#e7e1d7c0] duration-300  dark:bg-[#050505] dark:text-[#E7E1D7] dark:hover:bg-[#050505dc] max-[796px]:w-[233px] max-[796px]:mt-[6px] max-[796px]:text-[21px]"
             >
               Entrar em contato
             </a>
@@ -25,7 +25,7 @@ const Contact = () => {
             <ol className="mt-[24px] max-[796px]:mt-[6px]">
               <a
                 className="font-bitter text-[27px]  max-[796px]:text-[20px] hover:text-[#e7e1d7c0] duration-300 dark:hover:text-[#050505b5]"
-                href="https://drive.google.com/file/d/1fPJDggJtw9Wda00LX9tZI_2Whi6ItNQI/view?usp=sharing"
+                href="https://drive.google.com/file/d/15P77kWUzPfbxpe1ABG0xgZuTgRxE5fnf/view?usp=sharing"
                 target="_blank"
               >
                 Currículo

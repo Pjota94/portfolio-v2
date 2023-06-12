@@ -7,11 +7,12 @@ const About = () => {
     <section className="mt-32">
       <SectionName name="SOBRE" number="002" />
       <div className="w-full flex flex-col items-center gap-4">
-        <p className="w-[1103px] text-justify font-roboto font-light dark:font-light text-[1.5rem] indent-10 max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
+        <p className="w-[1103px] text-justify font-roboto font-extralight dark:font-light text-[1.5rem] indent-10 max-[1160px]:w-[90%] max-[1160px]:text-[1rem]">
           Olá, eu sou o Paulo, um{" "}
-          <strong className="font-medium">Desenvolvedor Full-Stack</strong> com
-          experiência em <strong className="font-medium">TypeScript</strong>,{" "}
-          <strong className="font-medium">React.js</strong>,{" "}
+          <strong className="font-medium">Desenvolvedor Full-Stack</strong>{" "}
+          especializado em <strong className="font-medium">Front-end</strong>,
+          com experiência em <strong className="font-medium">TypeScript</strong>
+          , <strong className="font-medium">React.js</strong>,{" "}
           <strong className="font-medium">Next.js</strong> e{" "}
           <strong className="font-medium">Node.js</strong>. Possuo habilidades
           tanto no desenvolvimento de interfaces de usuário modernas e

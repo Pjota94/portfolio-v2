@@ -16,7 +16,7 @@ export default function mks() {
       initial={{ y: "100%", opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.4, ease: "easeInOut" }}
-      className="h-full w-full  z-10 bg-[#050505] dark:bg-[white] flex flex-col items-center"
+      className="h-full w-full  z-10 bg-[#050505] dark:bg-[#fcfcfc] flex flex-col items-center"
     >
       <div className="w-[90%] flex flex-col items-end mt-4 gap-1 ">
         <Link
@@ -25,7 +25,7 @@ export default function mks() {
         >
           FECHAR
         </Link>
-        <div className="h-[0.4px] w-[102.35px] max-[1000px]:w-[72px] bg-[hsla(0,0%,99%,.5)] dark:bg-[rgba(5,7,13,.5)]"></div>
+        <div className="h-[0.4px] w-[90.31px] max-[1000px]:w-[63.68px] bg-[hsla(0,0%,99%,.5)] dark:bg-[rgba(5,7,13,.5)]"></div>
       </div>
       <div className="w-[90%] flex justify-between items-center mt-[37px]">
         <h2 className="font-roboto font-medium text-4xl max-[1000px]:text-[23px]">
@@ -72,10 +72,9 @@ export default function mks() {
         </div>
       </div>
       <div className="mb-8 flex justify-center">
-        <Image
-          className="rounded-lg w-[80%] border border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.3)]"
-          src={img}
-          alt="pokédex"
+        <iframe
+          className="w-[1100px] h-[600px] max-[1100px]:w-[800px] max-[834px]:w-[375px] rounded-lg border border-[hsla(0,0%,99%,.2)] dark:border-[rgba(5,7,13,.3)]"
+          src="https://mks-frontend-challenge-react-pjota94.vercel.app/"
         />
       </div>
     </motion.section>
